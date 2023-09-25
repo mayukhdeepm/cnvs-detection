@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cnvs-detection/static/css/main.ed755b1a.css",
+    "main.js": "/cnvs-detection/static/js/main.0780b138.js",
+    "static/js/ort-wasm-simd.wasm": "/cnvs-detection/static/js/ort-wasm-simd.wasm",
+    "static/js/ort-wasm-simd-threaded.wasm": "/cnvs-detection/static/js/ort-wasm-simd-threaded.wasm",
+    "static/js/ort-wasm.wasm": "/cnvs-detection/static/js/ort-wasm.wasm",
+    "static/js/ort-wasm-threaded.wasm": "/cnvs-detection/static/js/ort-wasm-threaded.wasm",
+    "index.html": "/cnvs-detection/index.html",
+    "main.ed755b1a.css.map": "/cnvs-detection/static/css/main.ed755b1a.css.map",
+    "main.0780b138.js.map": "/cnvs-detection/static/js/main.0780b138.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed755b1a.css",
+    "static/js/main.0780b138.js"
+  ]
+}
