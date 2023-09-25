@@ -1,6 +1,6 @@
 {
   "name": "yolov8-onnxruntime-web",
-  "homepage": "https://hyuto.github.io/yolov8-onnxruntime-web/",
+  "homepage": "https://mayukhdeepm.github.io/cnvs-detection/",
   "version": "0.1.0",
   "dependencies": {
     "@techstark/opencv-js": "4.5.5-release.2",
@@ -13,6 +13,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
