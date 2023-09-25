@@ -152,7 +152,7 @@ const App = () => {
           ref={videoRef}
           autoPlay
           style={{ display: !image ? "block" : "none" }}
-          playsinline
+          playsInline
           muted
         ></video>
         <img
