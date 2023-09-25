@@ -61,6 +61,9 @@ const App = () => {
         const stream = await navigator.mediaDevices.getUserMedia(constraints);
         mediaStream = stream;
         videoRef.current.srcObject = stream;
+        videoRef.setAttribute('autoplay', '');
+        videoRef.setAttribute('muted', '');
+        videoRef.setAttribute('playsinline', '');
       } catch (err) {
         console.log(err);
       }
@@ -150,10 +153,7 @@ const App = () => {
         {/* Display the video feed from the camera */}
         <video
           ref={videoRef}
-          autoPlay
           style={{ display: !image ? "block" : "none" }}
-          playsinline
-          muted
         ></video>
         <img
           ref={imageRef}
