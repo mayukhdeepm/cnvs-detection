@@ -61,9 +61,26 @@ const App = () => {
         const stream = await navigator.mediaDevices.getUserMedia(constraints);
         mediaStream = stream;
         videoRef.current.srcObject = stream;
+
+        const overlayImg = new Image();
+      overlayImg.src = "https://cdn.glitch.global/986fc018-8516-42f5-af32-953ec30d55ab/Exclude.png?v=1695641257151"; // Use the path to your overlay image
+      overlayImg.onload = () => {
+        // Position the overlay image on top of the video element
+        overlayImg.style.position = "absolute";
+        overlayImg.style.top = "0";
+        overlayImg.style.left = "0";
+        overlayImg.style.width = "100%";
+        overlayImg.style.height = "100%";
+        overlayImg.style.pointerEvents = "none"; // Ensure the overlay doesn't block interactions
+  
+        // Append the overlay image to the container
+        videoRef.current.parentNode.appendChild(overlayImg);
+      }
       } catch (err) {
         console.log(err);
       }
+
+      
   };
 
   useEffect(() => {
