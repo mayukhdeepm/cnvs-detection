@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed755b1a.css",
-    "main.js": "/static/js/main.a2ff73e8.js",
-    "static/js/ort-wasm-simd-threaded.jsep.wasm": "/static/js/ort-wasm-simd-threaded.jsep.wasm",
-    "static/js/ort-wasm-simd.jsep.wasm": "/static/js/ort-wasm-simd.jsep.wasm",
-    "static/js/ort-wasm-simd.wasm": "/static/js/ort-wasm-simd.wasm",
-    "static/js/ort-wasm-simd-threaded.wasm": "/static/js/ort-wasm-simd-threaded.wasm",
-    "static/js/ort-wasm.wasm": "/static/js/ort-wasm.wasm",
-    "static/js/ort-wasm-threaded.wasm": "/static/js/ort-wasm-threaded.wasm",
-    "index.html": "/index.html",
-    "main.ed755b1a.css.map": "/static/css/main.ed755b1a.css.map",
-    "main.a2ff73e8.js.map": "/static/js/main.a2ff73e8.js.map"
+    "main.css": "/cnvs-detection/static/css/main.ed755b1a.css",
+    "main.js": "/cnvs-detection/static/js/main.0d447c7d.js",
+    "public/static/js/ort-wasm-simd-threaded.jsep.wasm": "/cnvs-detection/public/static/js/ort-wasm-simd-threaded.jsep.wasm",
+    "public/static/js/ort-wasm-simd.jsep.wasm": "/cnvs-detection/public/static/js/ort-wasm-simd.jsep.wasm",
+    "public/static/js/ort-wasm-simd.wasm": "/cnvs-detection/public/static/js/ort-wasm-simd.wasm",
+    "public/static/js/ort-wasm-simd-threaded.wasm": "/cnvs-detection/public/static/js/ort-wasm-simd-threaded.wasm",
+    "public/static/js/ort-wasm.wasm": "/cnvs-detection/public/static/js/ort-wasm.wasm",
+    "public/static/js/ort-wasm-threaded.wasm": "/cnvs-detection/public/static/js/ort-wasm-threaded.wasm",
+    "index.html": "/cnvs-detection/index.html",
+    "main.ed755b1a.css.map": "/cnvs-detection/static/css/main.ed755b1a.css.map",
+    "main.0d447c7d.js.map": "/cnvs-detection/static/js/main.0d447c7d.js.map"
   },
   "entrypoints": [
     "static/css/main.ed755b1a.css",
-    "static/js/main.a2ff73e8.js"
+    "static/js/main.0d447c7d.js"
   ]
 }

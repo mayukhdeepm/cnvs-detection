@@ -1,6 +1,6 @@
 {
   "name": "yolov8-onnxruntime-web",
-  "homepage": "https://cnvs-detection.vercel.app/",
+  "homepage": "https://mayukhdeepm.github.io/cnvs-detection",
   "version": "0.1.0",
   "dependencies": {
     "@techstark/opencv-js": "4.5.5-release.2",
