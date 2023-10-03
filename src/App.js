@@ -85,9 +85,6 @@ const App = () => {
     startCamera();
   }, []);
 
-
-  
-
   return (
     <div className="App">
       {loading && <Loader>{loading}</Loader>}
