@@ -153,7 +153,6 @@ const App = () => {
           autoPlay
           style={{ display: !image ? "block" : "none" }}
           playsInline
-          webkit-playsInline
           muted
         ></video>
         <img
