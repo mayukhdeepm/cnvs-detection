@@ -1,15 +1,14 @@
 {
   "name": "yolov8-onnxruntime-web",
-  "homepage": "https://main.d3ppt60b0ircg9.amplifyapp.com/",
+  "homepage": "https://mayukhdeepm.github.io/cnvs-detection/",
   "version": "0.1.0",
   "dependencies": {
     "@techstark/opencv-js": "4.5.5-release.2",
-    "onnxruntime-web": "^1.16.0",
+    "onnxruntime-web": "^1.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-easy-crop": "^5.0.2",
-    "react-scripts": "5.0.1",
-    "webpack": "^5.88.2"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "craco start",
@@ -49,7 +48,7 @@
   },
   "devDependencies": {
     "@craco/craco": "^7.0.0",
-    "copy-webpack-plugin": "^9.0.1",
+    "copy-webpack-plugin": "^11.0.0",
     "gh-pages": "^4.0.0"
   }
 }
